@@ -6,5 +6,6 @@ while(i<=j){
         check  = false;
         break;
     }
+    i++,j--;
 }
 check == true?console.log("Palindrome"):console.log("Not Palindrome")
